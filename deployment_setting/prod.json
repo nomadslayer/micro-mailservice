@@ -1,0 +1,15 @@
+{
+  "SES_REGION" : "us-east-1",
+  "EXECUTION_ROLE" : "arn:aws:iam::{replacevalue}:role/Lambda-Execute",
+  "LAMBDA_REGION" : "us-east-1",
+  "BUCKET_REGION" : "us-east-1",
+  "BUCKET_NAME": "mail-email",
+  "ATTACHMENTS_PATH": "test",
+  "MAIL_FROM": "Mail service <mail@no.reply>",
+  "ENVIRONMENT": "prod",
+  "DBUSER": "administrator",
+  "DBHOST": "{replacedb}",
+  "DBPASSWORD": "admin123",
+  "DBNAME": "mailservice",
+  "APP_BASE_URL": "https://www.abcd.io"
+}

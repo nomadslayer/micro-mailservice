@@ -1,0 +1,14 @@
+{
+  "resource": "/",
+  "path": "sendmail",
+  "httpMethod": "POST",
+  "body": {
+    "to": "test@test.com",
+    "subject": "This is test email",
+    "text": "This is test email content in text",
+    "html": "<p>This is test email content in html</p>"
+  },
+  "headers": {
+    "x-api-key": "abcd1234"
+  }
+}
